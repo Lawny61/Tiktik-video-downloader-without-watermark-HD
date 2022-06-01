@@ -20,7 +20,7 @@ bot.on('text', (ctx) => {
         params: { url: vido, hd: '0' },
         headers: {
             'X-RapidAPI-Host': 'tiktok-video-no-watermark2.p.rapidapi.com',
-            'X-RapidAPI-Key': 'e029be8030msh618c63937555372p1bb3ccjsn6262f03d6b6f'
+            'X-RapidAPI-Key': '0msh618c63937555372p1bb3ccjsn6262f03d6b6f'
         }
     }
 
