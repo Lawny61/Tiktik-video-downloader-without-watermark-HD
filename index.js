@@ -23,7 +23,7 @@ bot.on('text', (ctx) => {
             'X-RapidAPI-Key': '0msh618c63937555372p1bb3ccjsn6262f03d6b6f'
         }
     }
-
+//get api key from rapid api
     axios.request(options).then(res => {
         console.log(res.data.data.play)
         ctx.replyWithChatAction('upload_video')
