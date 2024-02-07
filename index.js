@@ -1,6 +1,6 @@
 const Telegraf = require('telegraf').Telegraf
 
-const bot = new Telegraf('1801613186:AAGa2COCpOH1MWkz4USvpdNcjmCFkaSqK_Q')
+const bot = new Telegraf('')//Paste your bot token here!!
 
 const axios = require('axios')
 
